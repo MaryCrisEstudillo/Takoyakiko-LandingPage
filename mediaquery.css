@@ -1,0 +1,680 @@
+::-webkit-scrollbar{
+    display: none;
+}
+*{
+    margin: 0vw;
+    Padding: 0vw;
+}
+body{
+    background-color: maroon;
+    background-size: cover;
+
+}
+.shadowimg{
+    width: 100vw;
+    height: 200vw;
+    position: absolute;
+    z-index: -1;
+}
+#header{
+    position: fixed;
+    z-index: 20;
+    width: 200vw;
+    height: 200vw;
+
+}
+#header-img{
+    position: absolute;
+    width: 20vw;
+    left: 6vw;
+    top: 3vw;
+    display: none;
+
+}
+#nav-bar{
+    display: grid;
+    grid-template-columns: repeat(4, 25vw);
+    justify-content: center;
+    align-content: center;
+    width: 100vw;
+    height: 5vw;
+    color: white;
+    padding-top: 5vw;
+}
+    .about{
+        display: grid;
+        height: 10vw;
+        font-size: 4.5vw;
+        font-family: 'Josefin Sans', sans-serif;
+        padding-top: 1.5vw;
+        margin-right: 5VW;
+        padding-left: 2.5VW;
+    
+    
+    }
+    .menu{
+
+        display: grid;
+        height: 10vw;
+        font-size: 4.5vw;
+        font-family: 'Josefin Sans', sans-serif;
+        padding-top: 1.5vw;
+        width: 13vw;
+        margin-left: 3VW;
+    }
+    .ordernow1{
+
+        display: grid;
+        height: 10vw;
+        font-size: 4.5vw;
+        font-family: 'Josefin Sans', sans-serif;
+        padding-top: 1.5vw;
+        width: 14.5vw;
+    }
+    .contactus1{
+
+        display: grid;
+        height: 10vw;
+        font-size: 4.5vw;
+        font-family: 'Josefin Sans', sans-serif;
+        padding-top: 1.5vw;
+        width: 19.5vw;
+    }
+    
+    #backgroundimage{
+        height: 130vw;
+        margin: 0 auto;
+    }
+    #about{
+        width: 100vw;
+        height: 210vw;
+        
+    }
+        #video{
+            width: 88vw;
+            height: 48vw;
+            left: 6vw;
+            top: 150vw;
+            position: absolute;
+        }
+        .aboutP{
+            background-color: white;
+            width:60vw;
+            height: 18vw;
+            position:absolute;
+            left:17vw;
+            top:135vw;
+            padding: 3vw;
+            padding-bottom: 5vw;
+            text-align: justify;
+            font-size: 2vw;
+        }
+        .aboutimagesandtxt{
+            display: grid;
+            grid-template-columns: 50vw, 50vw;
+            align-content: center;
+            justify-content: center;
+            position: relative;
+            top: 8.7vw;
+            height: 100vw;
+            width: 100vw;
+        }
+        .image1{
+            width: 58vw;
+            position:absolute;
+            top: 57.5vw;
+            left: 6vw;
+
+        }
+        .paragraph1{
+            background-color: rgb(255, 255, 255);
+            width: 28vw;
+            height: 36vw;
+            font-size: 2vw;
+            position:absolute;
+            top: 57.5vw;
+            left:59.5vw;
+            padding: 3vw;
+            text-align: justify;
+        }
+        .image2{
+            width: 58vw;
+            position:absolute;
+            top: 105vw;
+            right: 7.5vw;
+        }
+        .paragraph2{
+            background-color: rgb(255, 255, 255);
+            width: 28vw;
+            height: 35.8vw;
+            font-size: 2vw;
+            position:absolute;
+            top: 105vw;
+            right: 60vw;
+            padding: 3vw;
+            text-align: justify;
+        }
+        .image3{
+            width: 58vw;
+            height: 40vw;
+            font-size: 1.4vw;
+            position:absolute;
+            top:152.3vw;
+            left: 6vw;
+        }
+        .paragraph3{
+            background-color: rgb(255, 255, 255);
+            width: 28vw;
+            height: 34vw;
+            font-size: 2vw;
+            position:absolute;
+            top: 152.2vw;
+            left: 58vw;
+            padding: 3vw;
+            text-align: justify;
+        }
+#menuflexbox{
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    background-size: cover;
+    height: 190vw;
+    width: 100vw;
+} 
+    .TITLEMENU{
+        position: absolute;
+        font-size: 3vw;
+        background-color: white;
+        color: black;
+        width:13vw;
+        height: 3.5vw;
+        left: 43.5vw;
+        top: 345vw;
+        text-align: center;
+   
+    }
+    .container1{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100vw; 
+        height: 205vw;
+
+        }
+   
+    .container2{ 
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100vw;
+        height:205vw;
+    
+    }
+    .menus{
+        display: flex;
+        align-self: center;
+        justify-self: center;
+        height: 43vw;
+        width: 43vw;
+        margin-top: 4vw;
+    }
+    .menus1{
+        display: flex;
+        align-self: center;
+        justify-self: center;
+        height: 43vw;
+        width: 43vw;
+        margin-top: 15vw;
+    }
+        
+    .steak-price{ 
+        display: flex;
+        align-self: center;
+        justify-self: center;
+        background-color: white;
+        width:43vw; 
+        height: 20vw;
+        margin-top: -5vw;
+        font-size: 3VW;
+        text-align: center;
+        flex-direction: column;
+        list-style-type: none;
+        padding-top: 2vw;
+        font-family: 'Josefin Sans', sans-serif;
+      /*   position: absolute;
+        top: 307vw;
+        left: 12.5vw;*/
+        
+    }
+    .tryit{
+        background-color: rgb(253, 207, 0);
+        display: flex;
+        align-self: center;
+        justify-self: center;
+        font-size: 3VW;
+        text-align: center;
+        font-family: 'Josefin Sans', sans-serif;
+        width: 20vw;
+        height: 4vw;
+        flex-direction: column;
+        margin-top: -7vw;
+        padding-top: 1vw;
+        border: .18vw solid rgb(206, 175, 0);
+
+
+    }
+    .salmon-price{
+        display: flex;
+        align-self: center;
+        justify-self: center;
+        background-color: white;
+        width:43vw; 
+        height: 20vw;
+        margin-top: -5vw;
+        font-size: 3VW;
+        text-align: center;
+        flex-direction: column;
+        list-style-type: none;
+        padding-top: 2vw;
+        font-family: 'Josefin Sans', sans-serif;
+     /*    position: absolute;
+        top: 359vw;
+        left: 12.5vw;*/
+    }
+    .tryit1{
+        background-color: rgb(253, 207, 0);
+        display: flex;
+        align-self: center;
+        justify-self: center;
+        font-size: 3VW;
+        text-align: center;
+        font-family: 'Josefin Sans', sans-serif;
+        width: 20vw;
+        height: 4vw;
+        flex-direction: column;
+        margin-top: -7vw;
+        padding-top: 1vw;
+        border: .18vw solid rgb(206, 175, 0);
+
+
+    }
+    .maki-price{
+        display: flex;
+        align-self: center;
+        justify-self: center;
+        background-color: white;
+        width:43vw; 
+        height: 20vw;
+        margin-top: -5vw;
+        font-size: 3VW;
+        text-align: center;
+        flex-direction: column;
+        list-style-type: none;
+        padding-top: 2vw;
+        font-family: 'Josefin Sans', sans-serif;
+      /*   position: absolute;
+        top: 411vw;
+        left: 12.5vw;*/
+    }
+    .tryit2{
+        background-color: rgb(253, 207, 0);
+        display: flex;
+        align-self: center;
+        justify-self: center;
+        font-size: 3VW;
+        text-align: center;
+        font-family: 'Josefin Sans', sans-serif;
+        width: 20vw;
+        height: 4vw;
+        flex-direction: column;
+        margin-top: -7vw;
+        padding-top: 1vw;
+        border: .18vw solid rgb(206, 175, 0);
+
+    }
+    .okonomiya-price{
+        display: flex;
+        align-self: center;
+        justify-self: center;
+        background-color: white;
+        width:43vw; 
+        height: 20vw;
+        margin-top: -5vw;
+        font-size: 3VW;
+        text-align: center;
+        flex-direction: column;
+        list-style-type: none;
+        padding-top: 2vw;
+        font-family: 'Josefin Sans', sans-serif;
+     /*    position: absolute;
+        top: 307vw;
+        right: 10vw;*/
+    }
+    .tryit3{
+        background-color: rgb(253, 207, 0);
+        display: flex;
+        align-self: center;
+        justify-self: center;
+        font-size: 3VW;
+        text-align: center;
+        font-family: 'Josefin Sans', sans-serif;
+        width: 20vw;
+        height: 4vw;
+        flex-direction: column;
+        margin-top: -7vw;
+        padding-top: 1vw;
+        border: .18vw solid rgb(206, 175, 0);
+
+    }
+    .sushi-price{
+        display: flex;
+        align-self: center;
+        justify-self: center;
+        background-color: white;
+        width:43vw; 
+        height: 20vw;
+        margin-top: -5vw;
+        font-size: 3VW;
+        text-align: center;
+        flex-direction: column;
+        list-style-type: none;
+        padding-top: 2vw;
+        font-family: 'Josefin Sans', sans-serif;
+    /*    position: absolute;
+        top: 359vw;
+        right: 10vw;*/
+    }
+    .tryit4{
+        background-color: rgb(253, 207, 0);
+        display: flex;
+        align-self: center;
+        justify-self: center;
+        font-size: 3VW;
+        text-align: center;
+        font-family: 'Josefin Sans', sans-serif;
+        width: 20vw;
+        height: 4vw;
+        flex-direction: column;
+        margin-top: -7vw;
+        padding-top: 1vw;
+        border: .18vw solid rgb(206, 175, 0);
+
+    }
+    .takoyaki-price{
+        display: flex;
+        align-self: center;
+        justify-self: center;
+        background-color: white;
+        width:43vw; 
+        height: 20vw;
+        margin-top: -5vw;
+        font-size: 3VW;
+        text-align: center;
+        flex-direction: column;
+        list-style-type: none;
+        padding-top: 2vw;
+        font-family: 'Josefin Sans', sans-serif;
+        /* 
+        position: absolute;
+        top: 411vw;
+        right: 10vw;*/
+        }
+    .tryit5{
+        background-color: rgb(253, 207, 0);
+        display: flex;
+        align-self: center;
+        justify-self: center;
+        font-size: 3VW;
+        text-align: center;
+        font-family: 'Josefin Sans', sans-serif;
+        width: 20vw;
+        height: 4vw;
+        flex-direction: column;
+        margin-top: -7vw;
+        padding-top: 1vw;
+        border: .18vw solid rgb(206, 175, 0);
+
+    }
+
+#ordernow{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    height: 110vw;
+    margin-top: 20vw;}
+
+       
+        .majorcontainer{
+            display: flex;
+            flex-direction: row;
+            width: 100vw;
+            height: 100vw;
+            margin-top: -5vw;
+       
+            }
+        .ORDERNOW{
+            position: absolute;
+            font-size: 2.5vw;
+            background-color: rgb(255, 255, 255);
+            color: black;
+            width:18vw;
+            height: 3.5vw;
+            left:41.1vw;
+            top:560vw;
+            text-align: center;
+            padding-top: .5vw;
+            z-index: 12;
+
+       
+               }
+        .pickupcontainer{     
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            align-content: center;
+            width: 50vw;
+            height: 50vw;
+            margin-top: 30vw;
+                  
+           }
+        .pick-up{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-content: center;
+            background-color: rgb(255, 255, 255);
+            font-size:2.5vw;
+            width:12vw;
+            height: 4vw;
+            border: .15vw solid rgb(0, 0, 0);
+            padding-left: 1vw;
+            } 
+        .map{
+            width: 45vw;
+            }
+        .button{
+            background-color: rgb(255, 255, 255);
+            width: 40vw;
+            text-align: center;
+            height:30vw;
+            padding-top: .3vw;
+            border: .15vw solid rgb(0, 0, 0);
+            color: black;
+            text-decoration: none;
+            font-size: 2.5vw;
+                   }
+                .pick-up1{
+                       font-size: 2.5vw;
+                       padding: 2vw;
+                       padding-right: 4vw;
+                       padding-left: 3.5vw;
+                       text-align: justify;
+         
+                   }
+                   .pick-up2{ font-size: 2vw; padding: 3.5vw; 
+                       padding-right: 4vw;
+                       padding-left: 7.5vw;}
+                   .pick-up3{              
+                    font-size: 2.5vw;
+                    padding: 2vw;
+                    padding-right: 4vw;
+                    padding-left: 3.5vw;
+                    text-align: justify;}
+               .DELIVERY{
+                   display: flex;
+                   background-color: white;
+                   font-size: 2.5vw;
+                   width:14vw;
+                   height: 3.2vw;
+                   border: .15vw solid rgb(0, 0, 0);
+                   padding-left: 1vw;
+       
+                   }
+           .deliverycontainer{
+                   display: flex;
+                   flex-direction: column;
+                   justify-self: flex-start;
+                   align-items: center;
+                   align-content: center;
+                   width: 50vw;
+                   height: 50vw;
+                   margin-top: 30vw;
+           }        
+               .deliveryimg{
+                   display: flex;
+                   flex-direction: row;
+                   flex-direction: column;
+                   justify-content: flex-start;
+                   align-items: center;
+                   align-content: center;
+                   width: 70vw;
+                   height: 100vw;
+                   margin-top:6.5vw ;
+       
+               }
+                   .delivery1{}
+                   .delivery2{}
+
+    #contactus{
+        width: 100vw;
+        height:59vw;}
+    .imagebg{
+        background-repeat: no-repeat;
+        height: 100vw;
+        width: 200vw;
+        position: absolute;
+        top: 650vw;}
+        
+    .imgresto{
+    
+     height: 100vw;
+    }
+    #email{
+        color: rgb(139, 139, 139);
+        font-size: 3vw;
+        position: absolute;
+        width: 56vw;
+        height: 5vw;
+        left: 23vw;
+        top: 692vw;
+        padding-left: 1vw;
+        border: .18vw solid rgb(126, 0, 0);
+        font-family: 'Roboto', sans-serif;
+    }
+    .contact{
+        position: absolute;
+        font-size: 2.5vw;
+        background-color: white;
+        color: black;
+        width:18vw;
+        height: 3.5vw;
+        left: 42vw;
+        top: 653vw;
+        text-align: center;
+        padding-top: .5vw;
+        border: .18vw solid rgb(126, 0, 0);
+        z-index: 12;
+
+    }
+    #formbox{
+
+        width: 100vw;
+        height: 50vw;
+    }
+        .surname{
+            font-size: 3vw;
+            position: absolute;
+            width: 56vw;
+            height: 5vw;
+            left: 23vw;
+            top: 684vw;
+            padding-left: 1vw;
+            border: .18vw solid rgb(126, 0, 0);
+            font-family: 'Roboto', sans-serif;
+            
+        }
+        .name{
+            font-size: 3vw;
+            position: absolute;
+            width: 56vw;
+            height: 5vw;
+            left: 23vw;
+            top: 676vw;
+            padding-left: 1vw;
+            border: .18vw solid rgb(126, 0, 0);
+            font-family: 'Roboto', sans-serif;
+        }
+        .comment{
+            color: rgb(97, 97, 97);
+            font-size: 3vw;
+            width: 55vw;
+            height: 30vw;
+            position: absolute;
+            left: 23vw;
+            top: 700vw;
+            padding: 1vw;
+            border: .18vw solid rgb(126, 0, 0);
+            font-family: 'Roboto', sans-serif;
+            
+        }
+        .SENTENCE1{
+            width: 45vw;
+            font-size: 5vw;
+            font-weight: 200;
+            position: absolute;
+            left: 28vw;
+            top: 662vw;
+            padding-left: 1vw;
+            font-family: 'Josefin Sans', sans-serif;
+            text-align: center;
+
+            color: rgb(88, 2, 2);
+        }
+        .SENTENCE2{
+            width: 85vw;
+            font-size: 5vw;
+            font-weight: 200;
+            position: absolute;
+            left: 8vw;
+            top: 668vw;
+            padding-left: 1vw;
+            font-family: 'Josefin Sans', sans-serif;
+            text-align: center;
+            margin-top: 1vw;
+            color: rgb(88, 2, 2);
+    
+        }
+        #submit{
+            width: 16vw;
+            height: 5vw;
+            font-size:3vw;
+            position: absolute;
+            left: 44vw;
+            top: 735vw;
+            background-color: rgb(143, 19, 19);
+            color: white;
+        }
+                   
+
+    
